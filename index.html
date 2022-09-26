@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(31, 31, 31)">
+            <div class="container">
+                <a class="navbar-brand" href="#">DANIIL PODUSHKO</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav mr-auto mb-3 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Резюме</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Портфолио</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Услуги
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Логотип</a></li>
+                        <li><a class="dropdown-item" href="#">Айдентика</a></li>
+                        <li><a class="dropdown-item" href="#">Сайт</a></li>
+                        <li><a class="dropdown-item" href="#">Приложение</a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Контакты</a>
+                      </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-md-8 col-lg-10">
+                    <h1>Помогаю брендам быть особенными</h1>
+                    <h2>Создаю сайты на Тильде и айдентику</h2>
+                    <h3>Подушко Даниил, UI/UX дизайнер</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-lg-8">
+                    <h2>Немного обо мне</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis iste corporis nemo, accusamus praesentium modi maxime consequuntur suscipit commodi necessitatibus numquam molestias sunt temporibus exercitationem nisi animi quia cumque velit quaerat vero quae. Reprehenderit veritatis est cupiditate fugit unde delectus, quis quasi, eius esse corporis animi exercitationem at inventore?</h3>
+                    <h2>Мои скиллы</h2>
+                    <div class="skills">
+                        <span class="badge rounded-pill text-bg-dark"><h4>Figma</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Тильда</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Adobe Photoshop</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Adobe Illustrator</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Adobe After Effects</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Adobe XD</h4></span>
+                        <span class="badge rounded-pill text-bg-dark"><h4>Blender 3D</h4></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="FAQ" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-lg-8">
+                    <h2>Часто задаваемые вопросы</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Вопрос #1
+                            </button>
+                          </h3>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque vitae quia! Quis, veniam eaque labore tenetur dicta beatae praesentium, deserunt in harum ipsam hic?
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Вопрос #2
+                            </button>
+                          </h3>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi iure quae vitae ea ipsam nam, similique quidem voluptatum, sequi eos minus atque earum enim praesentium, in porro vel! Rem?
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Вопрос #3
+                            </button>
+                          </h3>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione nihil ipsam qui unde id quis soluta maxime placeat. Sed saepe harum doloribus dicta quam, at dolores, officiis asperiores voluptas, dolor ipsum odio distinctio et nesciunt molestias eaque voluptatum alias!
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form_" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-lg-8">
+                    <h2>Заполните форму для заявки</h2>
+                    <form class="row g-3">
+                        <div class="col-md-4">
+                          <label for="inputName" class="form-label">Имя</label>
+                          <input type="name" class="form-control" id="inputname">
+                        </div>
+                        <div class="col-md-8">
+                          <label for="inputEmail4" class="form-label">Почта</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Услуга</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Выберете...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                        <div class="col-md-8">
+                          <label for="inputMesseges" class="form-label">Сообщение</label>
+                          <input type="text" class="form-control" id="inputMesseges">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Обо мне</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Резюме</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Услуги
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Логотип</a></li>
+                      <li><a class="dropdown-item" href="#">Айдентика</a></li>
+                      <li><a class="dropdown-item" href="#">Сайт</a></li>
+                      <li><a class="dropdown-item" href="#">Приложение</a></li>
+                    </ul>
+                  </li>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Портфолио</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Контакты</a>
+              </nav>
+        </div>
+        <div class="container"><h3>PODUSHKO DANIIl © 2022</h3></div>
+        <!-- <h3>PODUSHKO DANIIl © 2022</h3> -->
+    </footer>
+
+
+
+   <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+
+    
+</body>
+</html>
